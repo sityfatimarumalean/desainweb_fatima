@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form pendaftaran</title>
+</head>
+<body>
+    <h2>Formulir Pendaftaran Mahasiswa Baru 2024/2025</h2>
+    <h3>Politeknik Negeri fakfak</h3>
+
+    <form action="">
+        <table>
+            <tr>
+                <td>Nama Lengkap</td>
+                <td>
+                    <input type="text" name="nama" size="20">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Nim :</td>
+                <td>
+                    <input type="text" name="nim" size="10">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>TTL:</td>
+                <td>
+                    <input type="date" name="ttl" size="20">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Jenis Kelamin :</td>
+                <td>
+                    <input type="radio" name="jk" value="laki_laki">laki_laki
+                    <input type="radio" name="jk" value="perempuan">Perempuan
+                </td>
+            </tr>
+
+            <tr>
+                <td>Alamat</td>
+                <td>
+                    <textarea name="komentar" id="" cols="20" rows="5"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Hobby</td>
+                <td>
+                    <input type="checkbox" name="hobby" value="Futsal">fitsal<br>
+                    <input type="checkbox" name="hobby" value="Volly">volly<br>
+                    <input type="checkbox" name="hobby" value="Mengaji">mengaji<br>
+                    <input type="checkbox" name="hobby" value="Memasak">memasak<br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Vidio saya</td>
+                <td>
+                    <iframe width="569" height="315" src="https://www.youtube.com/embed/Pk1Cd8RBPHg?si=OG-DBqyKim8SOHIy" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Jurusan</td>
+                <td>
+                    <select name="Jurusan" id="">
+                        <option value="Tl">Teknik Listrik</option>
+                        <option value="TM">Teknik Perawatan dan Perbaikan Mesin</option>
+                        <option value="MI">Manajemen Informatika</option>
+                        <option value="TS">Teknik Sipil</option>
+                        <option value="AG">Agroindustri</option>
+                    </select>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="SIMPAN">
+                            <input type="reset" value="RESET"> 
+                        </td>
+                    </tr>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
